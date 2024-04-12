@@ -1,0 +1,33 @@
+.board {
+    position: relative;
+    border: solid 4px darkgrey;
+    width: 560px;
+    height: 300px;
+    margin-top: 100px;
+    background: linear-gradient(#FFB029, #FFE563);
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #2F66C4;
+    border: solid 1px #2C3882;
+    border-radius: 5px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #FFB029;
+    border-radius: 50%;
+    background-color: #F04F4F;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #2C3882;
+}
